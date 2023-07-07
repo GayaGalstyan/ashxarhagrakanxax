@@ -4,7 +4,7 @@ html {
 html {
     width: 100%;
     height: 100%;
-    background: linear-gradient(325deg,  #055861 0%,#EBE773 50%,#CFEDF0 100%);
+    background: linear-gradient(325deg,  #3dc485 0%,#fffa6f 50%,#97f2fa 100%);
     font-family: Fredoka;
 }
 #bcolor{
@@ -23,7 +23,7 @@ html {
 html {
     width: 100%;
     height: 100%;
-    background: linear-gradient(325deg,  #055861 0%,#EBE773 50%,#CFEDF0 100%);
+    background: linear-gradient(325deg,  #3dc485 0%,#fffa6f 50%,#97f2fa 100%);
     font-family: Fredoka;
 }
 
@@ -150,7 +150,8 @@ html {
 .button:hover {
     background-color: rgb(46, 150, 74);
 }
-.h1{
-    font-size: 50px;
-    
+h1{
+    font-size: 41px;
+    color: rgb(17, 20, 243);
+    text-align: center;
 }

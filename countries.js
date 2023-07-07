@@ -49,13 +49,13 @@ const countries = [
         "name": "Մեքսիկա "
     },
     {
-        "flag": "flags/downland.png ",
-        "name": "Իտալիա "
+        "flag": "flags/gr.png ",
+        "name": "Գրելանդիա "
     },
-    {
-        "flag": "flags/images.jpeg ",
-        "name": "Հայաստան "
-    },
+     {
+         "flag": "flags/images.png ",
+         "name": "Իտալիա  "
+     },
     {
         "flag": "flags/Amn.jpeg ",
         "name": "Ամն "
@@ -67,7 +67,7 @@ const countries = [
    
     {
         "flag": "flags/Brazil.svg.png ",
-        "name": "Բռազիլիա "
+        "name": "Բրազիլիա "
     },
     {
         "flag": "flags/Chile.svg.png ",
@@ -85,5 +85,17 @@ const countries = [
         "flag": "flags/Hk.svg.png ",
         "name": "Հյուսիսային Կորեա "
     },
+{
+    "flag": "flags/tay.jpeg",
+    "name": " թայլանդ"
+},
+// {
+//     "flag": "flags/downlands.jpeg",
+//     "name": " Շրի լանկա"
+// },
+{
+    "flag": "flags/m.jpeg",
+    "name": " Մալդիվներ"
+},
 
 ]
