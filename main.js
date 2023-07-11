@@ -1,5 +1,5 @@
 let correct;
-let seconds = փ0;
+let seconds = 30;
 let correctAnswer = 0;
 let incorrectAnswer = 0;
 function getElement(id) {
@@ -52,16 +52,26 @@ function check() {
 }
 function finish() {
    clearInterval(checkInterval);
+   getElement("alert").style.display="block";
+   getElement("card").style.display="none";
+   getElement("alertscore").innerHTML=correctAnswer
   let percentage =Math.round( correctAnswer/(incorrectAnswer+correctAnswer)*100);
   let resultForAnswers;
-  if (percentage>=80) {
-    resultForAnswers="գերազանց"
+  if (percentage>=50) {
+    resultForAnswers="լավ "
   }
   else if(percentage<=50){
 resultForAnswers="վատ"
   }
+  else if ( percentage>=80){
+    resultForAnswers="գերազանց"
+  }
+
 
   getElement("alertaccuracy").innerHTML = ` ձեր արդյունքը ${resultForAnswers} է`;
+}
+function refresh(){
+location=location;
 }
 
 let checkInterval = setInterval(check, 50);

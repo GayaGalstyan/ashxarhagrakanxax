@@ -89,13 +89,45 @@ const countries = [
     "flag": "flags/tay.jpeg",
     "name": " թայլանդ"
 },
-// {
-//     "flag": "flags/downlands.jpeg",
-//     "name": " Շրի լանկա"
-// },
+
 {
     "flag": "flags/m.jpeg",
     "name": " Մալդիվներ"
 },
-
+{
+    "flag": "flags/k.png ",
+    "name": " Կոնգո "
+},
+{
+    "flag": "flags/lib.png ",
+    "name": " Լիբանան "
+},
+{
+    "flag": "flags/uz.png ",
+    "name": " Ուզբեկստան "
+},
+{
+    "flag": "flags/ame.png ",
+    "name": " Ամե "
+},
+{
+    "flag": "flags/av.png ",
+    "name": " Աղֆանստան "
+},
+{
+    "flag": "flags/d.png ",
+    "name": " Դոմինիկյան Հանրապետություն "
+},
+{
+    "flag": "flags/peru.png ",
+    "name": "Պեռու  "
+},
+{
+    "flag": "flags/mol.png ",
+    "name": "Մոլդովա  "
+},
+{
+    "flag": "flags/nam.png ",
+    "name": " Նամբիա "
+},
 ]
